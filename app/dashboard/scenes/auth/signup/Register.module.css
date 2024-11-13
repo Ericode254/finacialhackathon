@@ -1,0 +1,73 @@
+.container {
+    display: flex;
+    margin: 10px;
+    width: 100%;
+    height: 100vh;
+    background-color: #f1f5f9;
+}
+
+.formContainer {
+    width: 50%;
+    padding: 40px;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    margin-bottom: 24px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.field label {
+    margin-bottom: 8px;
+    font-size: 1rem;
+}
+
+.field input {
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.error {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 4px;
+}
+
+.radioGroup {
+    display: flex;
+    gap: 20px;
+}
+
+.submitButton button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.imageContainer {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
